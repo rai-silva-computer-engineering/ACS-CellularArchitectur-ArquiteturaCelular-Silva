@@ -1,2 +1,2 @@
 # ai-butler-project-projeto-mordomo-ia-
-Projeto de robô autônomo desenvolvido com Arduino e C++ com foco em sistemas embarcados, robótica e navegação inteligente.
+Projeto de robô autônomo inteligente desenvolvido com Arduino, C++ e Python, com foco em sistemas embarcados, robótica e inteligência artificial.
