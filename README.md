@@ -1,2 +1,5 @@
-# ai-butler-project-projeto-mordomo-ia-
-Projeto de robô autônomo inteligente desenvolvido com Arduino, C++ e Python, com foco em sistemas embarcados, robótica e inteligência artificial.
+# ACS
+
+## Arquitetura Celular Silva
+
+> Uma proposta de arquitetura computacional baseada em células autônomas e distribuídas.
