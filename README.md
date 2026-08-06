@@ -30,13 +30,33 @@ Se você gosta de arquitetura de computadores, sistemas distribuídos, hardware 
 
 ---
 
-### Visão Geral
+## 01 — Contexto e Motivação
 
-A evolução da computação foi construída sobre contribuições de diversos pesquisadores que estabeleceram os fundamentos da arquitetura de computadores moderna. Entre eles, John von Neumann definiu uma organização que permanece como base da maioria dos sistemas computacionais atuais. Ao longo das décadas, novos estudos em processamento paralelo, sistemas distribuídos, autômatos celulares e sistemas adaptativos ampliaram a compreensão sobre como sistemas complexos podem surgir da cooperação entre unidades simples.
+### Contexto
 
-Durante o estudo dessas áreas surgiu uma reflexão: apesar da enorme evolução tecnológica, a organização fundamental dos computadores permanece semelhante há décadas. Essa observação levou ao desenvolvimento da Arquitetura Celular Silva (ACS), uma proposta conceitual que investiga uma abordagem alternativa para a organização de sistemas computacionais.
+A história da computação é resultado da contribuição de diversos pesquisadores que estabeleceram os fundamentos da ciência da computação e da arquitetura de computadores. Ao longo das últimas décadas, esses estudos permitiram a criação de sistemas cada vez mais rápidos, confiáveis e eficientes.
 
----
+Grande parte dos computadores atuais ainda é baseada nos princípios da arquitetura proposta por John von Neumann, modelo que revolucionou a computação ao organizar o sistema em unidades de processamento, memória e entrada/saída. Com o avanço da tecnologia, novas áreas de pesquisa surgiram para enfrentar desafios como desempenho, paralelismo, escalabilidade e tolerância a falhas.
+
+Entre essas áreas destacam-se os sistemas distribuídos, a computação paralela, os autômatos celulares estudados por Stephen Wolfram e os sistemas adaptativos pesquisados por John Holland. Embora pertençam a campos diferentes, todos esses estudos demonstram que sistemas complexos podem surgir da cooperação entre unidades relativamente simples.
+
+Durante o estudo desses temas surgiu uma reflexão: apesar da enorme evolução do hardware, da miniaturização dos componentes e do aumento da capacidade de processamento, a organização fundamental dos computadores permaneceu relativamente estável ao longo das décadas.
+
+### Motivação
+
+Essa constatação despertou uma pergunta que deu origem a este projeto:
+
+**É possível conceber uma arquitetura computacional organizada de forma diferente das arquiteturas tradicionais?**
+
+A busca por essa resposta levou ao desenvolvimento da Arquitetura Celular Silva (ACS).
+
+A ACS é uma proposta conceitual de pesquisa que investiga uma arquitetura baseada na cooperação entre células computacionais, explorando uma abordagem alternativa para a organização do processamento, da memória e da comunicação dentro de um sistema computacional.
+
+Este projeto não parte da premissa de que as arquiteturas atuais estejam erradas ou ultrapassadas. Pelo contrário, reconhece sua importância histórica e tecnológica. A motivação da ACS é investigar novas possibilidades, questionar conceitos consolidados e estimular a pesquisa em arquitetura de computadores.
+
+Toda a evolução da ACS será documentada neste repositório. Cada conceito, hipótese, diagrama, experimento e decisão de projeto será registrado para que o desenvolvimento da arquitetura possa ser acompanhado de forma aberta, organizada e tecnicamente fundamentada.
+
+Mais do que apresentar respostas prontas, este projeto representa o início de uma investigação sobre uma possível nova forma de organizar sistemas computacionais.
 
 ### Status do projeto
 
