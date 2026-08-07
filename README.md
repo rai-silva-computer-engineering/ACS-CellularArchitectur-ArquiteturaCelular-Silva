@@ -132,7 +132,77 @@ Neste momento da pesquisa, a célula computacional é definida apenas em nível 
 
 Sua implementação física, organização interna, conjunto de instruções, forma de comunicação e demais características de hardware serão especificados nos próximos capítulos, à medida que a arquitetura evoluir.
 
+---
 
+## 04 — Anatomia da Célula Computacional
+
+A célula computacional é o elemento fundamental da Arquitetura Celular Silva (ACS). Toda a arquitetura é construída a partir da cooperação entre milhares dessas células.
+
+Individualmente, uma célula possui capacidade limitada. Entretanto, quando conectada às demais, torna-se parte de um sistema distribuído capaz de executar tarefas complexas.
+
+A ACS parte do princípio de que a inteligência não pertence a uma única célula, mas emerge da cooperação entre todas elas.
+
+---
+
+### Estrutura Conceitual da Célula
+
+```mermaid
+flowchart TB
+    CTRL["Controlador"]
+    PROC["Unidade de Processamento"]
+    MEM["Memória Local"]
+    COMM["Comunicação"]
+    STATE["Estado da Célula"]
+    CTRL --> PROC
+    CTRL --> MEM
+    CTRL --> COMM
+    CTRL --> STATE
+Cada célula é composta por cinco blocos principais.
+1. Controlador
+Coordena o funcionamento interno da célula. É responsável por receber eventos, controlar o fluxo interno de execução e organizar a comunicação com os demais módulos.
+2. Unidade de Processamento
+Executa operações computacionais básicas. Seu objetivo não é realizar grandes volumes de processamento individualmente, mas cooperar com outras células na execução de tarefas distribuídas.
+3. Memória Local
+Cada célula possui uma pequena quantidade de memória própria. Essa memória armazena:
+ informações temporárias;
+ estado interno;
+ dados necessários para a tarefa atual.
+Não existe uma memória central obrigatória.
+4. Comunicação
+Este módulo permite que a célula envie e receba informações. A comunicação ocorre diretamente com células vizinhas, formando uma rede distribuída.
+5. Estado da Célula
+Toda célula mantém informações sobre sua condição atual. Exemplos:
+ Livre
+ Executando tarefa
+ Aguardando dados
+ Sobrecarregada
+ Falha detectada
+Esses estados auxiliam a organização da arquitetura.
+Organização da Rede
+As células são organizadas em uma malha computacional.
+
+graph LR
+A((C1)) --- B((C2))
+B --- C((C3))
+A --- D((C4))
+B --- E((C5))
+C --- F((C6))
+D --- E
+E --- F
+D --- G((C7))
+E --- H((C8))
+F --- I((C9))
+G --- H
+H --- I
+
+vizinhas diretas. Nenhuma célula possui conhecimento completo da arquitetura.
+Filosofia da Arquitetura
+A ACS adota um princípio diferente das arquiteturas tradicionais. Em vez de centralizar inteligência em um único componente, ela distribui responsabilidades entre milhares de pequenas células cooperativas.
+Isso proporciona:
+ escalabilidade;
+ modularidade;
+ tolerância a falhas;
+ crescimento incremental da arquitetura.
 
 ### Status do projeto
 
