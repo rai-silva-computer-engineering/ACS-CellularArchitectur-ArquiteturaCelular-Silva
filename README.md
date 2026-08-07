@@ -175,6 +175,13 @@ Organização da Rede
 As células são organizadas em uma malha computacional.
 
 
+---
+
+### Organização da Rede
+
+As células são organizadas em uma malha computacional.
+
+```mermaid
 graph LR
 A((C1)) --- B((C2))
 B --- C((C3))
@@ -188,7 +195,6 @@ E --- H((C8))
 F --- I((C9))
 G --- H
 H --- I
-
 
 
 Cada célula comunica-se apenas com suas vizinhas diretas. Nenhuma célula possui conhecimento completo da arquitetura.
