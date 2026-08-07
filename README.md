@@ -85,8 +85,53 @@ Cada célula representa um módulo da arquitetura. Isso permite que novas geraç
 ### 7. Evolução Contínua
 A ACS é um projeto de pesquisa em constante evolução. Novos princípios poderão ser incorporados e princípios existentes poderão ser refinados à medida que estudos, simulações e experimentos ampliarem a compreensão da arquitetura.
 
-### Considerações Finais
-Os princípios apresentados neste documento estabelecem a identidade da Arquitetura Celular Silva. Nos próximos capítulos, esses conceitos serão transformados em definições técnicas, especificando a estrutura da célula computacional, sua forma de comunicação e a organização do sistema como um todo.
+### Considerações Finais desta seção:
+Os princípios apresentados neste documento estabelecem a identidade da Arquitetura Celular Silva. Na próxima seção , esses conceitos serão transformados em definições técnicas, especificando a estrutura da célula computacional, sua forma de comunicação e a organização do sistema como um todo.
+
+---
+
+## 03 — A Célula Computacional
+
+A célula computacional é a unidade fundamental da Arquitetura Celular Silva (ACS). Toda a arquitetura é construída a partir da cooperação entre essas células, formando um único sistema computacional distribuído.
+
+Ao contrário das arquiteturas tradicionais, que concentram funções específicas em componentes dedicados, a ACS propõe que o sistema seja composto por um grande conjunto de células capazes de cooperar entre si para executar tarefas computacionais.
+
+### O que é uma célula computacional?
+
+Uma célula computacional é uma unidade básica de processamento da ACS. Individualmente, ela possui capacidades limitadas. Entretanto, quando conectada a outras células, passa a integrar uma estrutura computacional muito maior, capaz de executar tarefas complexas.
+
+O princípio da ACS é que o comportamento global do sistema não depende de uma única unidade, mas da cooperação entre milhares de células.
+
+### Características Fundamentais
+
+Toda célula da ACS deverá possuir, no mínimo:
+
+* capacidade de realizar operações computacionais básicas;
+* memória local para armazenar seu estado e informações temporárias;
+* capacidade de comunicação com outras células;
+* identificação própria dentro da arquitetura;
+* mecanismo para receber, processar e transmitir informações.
+
+Essas características representam os requisitos mínimos para que uma célula participe da arquitetura.
+
+### Funcionamento Cooperativo
+
+Nenhuma célula é responsável por controlar toda a arquitetura.
+
+Cada célula executa apenas a parcela de trabalho que lhe é atribuída e compartilha informações com outras células quando necessário.
+
+O resultado do processamento emerge da cooperação entre todas as células participantes.
+
+### Escalabilidade
+
+Como todas as células seguem os mesmos princípios fundamentais, a arquitetura pode crescer de forma modular. A adição de novas células amplia a capacidade do sistema sem alterar sua organização conceitual.
+
+### Considerações
+
+Neste momento da pesquisa, a célula computacional é definida apenas em nível conceitual.
+
+Sua implementação física, organização interna, conjunto de instruções, forma de comunicação e demais características de hardware serão especificados nos próximos capítulos, à medida que a arquitetura evoluir.
+
 
 
 ### Status do projeto
