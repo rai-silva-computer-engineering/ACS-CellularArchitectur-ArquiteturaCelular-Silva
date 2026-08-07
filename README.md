@@ -209,5 +209,20 @@ Isso proporciona:
 
  ---
 
-## 05 — Status do projeto
-🟡 Em pesquisa conceitual. A arquitetura está sendo desenvolvida e pode sofrer alterações à medida que novas ideias, testes e estudos forem realizados.
+---
+
+### Status do projeto
+
+🟡 **Em pesquisa conceitual.** A arquitetura está sendo desenvolvida e pode sofrer alterações à medida que novas ideias, testes e estudos forem realizados.
+
+---
+
+### 📖 Acompanhe a Evolução do Estudo
+
+Para manter a leitura organizada e aprofundar em cada etapa da Arquitetura Celular Silva (ACS), os capítulos conceituais detalhados estão sendo desenvolvidos e organizados na pasta **`docs/`** do repositório. 
+
+Não se trata apenas de textos de leitura: lá você encontrará **rascunhos conceituais, diagramas visuais e estruturas tridimensionais** que detalham o funcionamento da arquitetura.
+
+Continue a evolução da pesquisa acessando o próximo capítulo:
+* **[📁 Ir para a Seção 05 — Organização da Malha](./docs/05-organizacao-da-malha.md)**
+
