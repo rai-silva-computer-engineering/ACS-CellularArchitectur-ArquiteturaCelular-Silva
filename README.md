@@ -146,6 +146,12 @@ A ACS parte do princípio de que a inteligência não pertence a uma única cél
 
 ### Estrutura Conceitual da Célula
 
+---
+
+## 04 — Anatomia da Célula Computacional
+
+### Estrutura Conceitual da Célula
+
 ```mermaid
 flowchart TB
     CTRL["Controlador"]
@@ -157,7 +163,7 @@ flowchart TB
     CTRL --> MEM
     CTRL --> COMM
     CTRL --> STATE
-
+```
 
 Cada célula é composta por cinco blocos principais:
 1. Controlador: Coordena o funcionamento interno da célula. É responsável por receber eventos, controlar o fluxo interno de execução e organizar a comunicação com os demais módulos.
