@@ -195,6 +195,7 @@ E --- H((C8))
 F --- I((C9))
 G --- H
 H --- I
+```
 
 
 Cada célula comunica-se apenas com suas vizinhas diretas. Nenhuma célula possui conhecimento completo da arquitetura.
