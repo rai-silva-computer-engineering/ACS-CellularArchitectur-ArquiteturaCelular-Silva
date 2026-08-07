@@ -58,6 +58,37 @@ Toda a evolução da ACS será documentada neste repositório. Cada conceito, hi
 
 Mais do que apresentar respostas prontas, este projeto representa o início de uma investigação sobre uma possível nova forma de organizar sistemas computacionais.
 
+---
+
+## 02 — Princípios da Arquitetura Celular Silva (ACS)
+
+Os princípios da Arquitetura Celular Silva (ACS) definem os fundamentos que orientam o desenvolvimento desta proposta. Independentemente da forma como a arquitetura evolua ao longo da pesquisa, estes princípios representam a base conceitual sobre a qual todas as decisões de projeto deverão ser construídas.
+
+### 1. Inteligência Distribuída
+Na ACS, a capacidade computacional não está concentrada em um único componente. O comportamento inteligente do sistema surge da cooperação entre diversas células computacionais.
+
+### 2. Ausência de um Processador Central
+A arquitetura não depende de uma unidade central de processamento responsável por coordenar todo o sistema. O processamento é distribuído entre as células, que executam suas funções de forma cooperativa.
+
+### 3. Cooperação entre Células
+Cada célula é capaz de trocar informações com outras células seguindo regras definidas pela arquitetura. O funcionamento global depende da colaboração entre essas unidades, e não de decisões centralizadas.
+
+### 4. Escalabilidade
+A arquitetura deve permitir a expansão do sistema sem alterar seus princípios fundamentais. O aumento da capacidade computacional deverá ocorrer por meio da adição de novas células ao conjunto.
+
+### 5. Tolerância a Falhas
+A falha de uma ou mais células não deve interromper o funcionamento do sistema. Sempre que possível, as demais células deverão reorganizar o processamento para manter a operação.
+
+### 6. Modularidade
+Cada célula representa um módulo da arquitetura. Isso permite que novas gerações de células sejam desenvolvidas sem a necessidade de redesenhar toda a estrutura do sistema.
+
+### 7. Evolução Contínua
+A ACS é um projeto de pesquisa em constante evolução. Novos princípios poderão ser incorporados e princípios existentes poderão ser refinados à medida que estudos, simulações e experimentos ampliarem a compreensão da arquitetura.
+
+### Considerações Finais
+Os princípios apresentados neste documento estabelecem a identidade da Arquitetura Celular Silva. Nos próximos capítulos, esses conceitos serão transformados em definições técnicas, especificando a estrutura da célula computacional, sua forma de comunicação e a organização do sistema como um todo.
+
+
 ### Status do projeto
 
 🟡 Em pesquisa conceitual. A arquitetura está sendo desenvolvida e pode sofrer alterações à medida que novas ideias, testes e estudos forem realizados.
