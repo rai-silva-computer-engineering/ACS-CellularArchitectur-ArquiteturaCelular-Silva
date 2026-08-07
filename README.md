@@ -206,5 +206,8 @@ Isso proporciona:
  modularidade;
  tolerância a falhas;
  crescimento incremental da arquitetura.
-Status do projeto
+
+ ---
+
+## 05 — Status do projeto
 🟡 Em pesquisa conceitual. A arquitetura está sendo desenvolvida e pode sofrer alterações à medida que novas ideias, testes e estudos forem realizados.
