@@ -86,7 +86,7 @@ Cada célula representa um módulo da arquitetura. Isso permite que novas geraç
 A ACS é um projeto de pesquisa em constante evolução. Novos princípios poderão ser incorporados e princípios existentes poderão ser refinados à medida que estudos, simulações e experimentos ampliarem a compreensão da arquitetura.
 
 ### Considerações Finais desta seção:
-Os princípios apresentados neste documento estabelecem a identidade da Arquitetura Celular Silva. Na próxima seção , esses conceitos serão transformados em definições técnicas, especificando a estrutura da célula computacional, sua forma de comunicação e a organização do sistema como um todo.
+Os princípios apresentados neste documento estabelecem a identidade da Arquitetura Celular Silva. Na próxima seção, esses conceitos serão transformados em definições técnicas, especificando a estrutura da célula computacional, sua forma de comunicação e a organização do sistema como um todo.
 
 ---
 
@@ -157,29 +157,17 @@ flowchart TB
     CTRL --> MEM
     CTRL --> COMM
     CTRL --> STATE
-Cada célula é composta por cinco blocos principais.
-1. Controlador
-Coordena o funcionamento interno da célula. É responsável por receber eventos, controlar o fluxo interno de execução e organizar a comunicação com os demais módulos.
-2. Unidade de Processamento
-Executa operações computacionais básicas. Seu objetivo não é realizar grandes volumes de processamento individualmente, mas cooperar com outras células na execução de tarefas distribuídas.
-3. Memória Local
-Cada célula possui uma pequena quantidade de memória própria. Essa memória armazena:
- informações temporárias;
- estado interno;
- dados necessários para a tarefa atual.
-Não existe uma memória central obrigatória.
-4. Comunicação
-Este módulo permite que a célula envie e receba informações. A comunicação ocorre diretamente com células vizinhas, formando uma rede distribuída.
-5. Estado da Célula
-Toda célula mantém informações sobre sua condição atual. Exemplos:
- Livre
- Executando tarefa
- Aguardando dados
- Sobrecarregada
- Falha detectada
-Esses estados auxiliam a organização da arquitetura.
+
+
+Cada célula é composta por cinco blocos principais:
+1. Controlador: Coordena o funcionamento interno da célula. É responsável por receber eventos, controlar o fluxo interno de execução e organizar a comunicação com os demais módulos.
+2. Unidade de Processamento: Executa operações computacionais básicas. Seu objetivo não é realizar grandes volumes de processamento individualmente, mas cooperar com outras células na execução de tarefas distribuídas.
+3. Memória Local: Cada célula possui uma pequena quantidade de memória própria. Essa memória armazena informações temporárias, estado interno e dados necessários para a tarefa atual. Não existe uma memória central obrigatória.
+4. Comunicação: Este módulo permite que a célula envie e receba informações. A comunicação ocorre diretamente com células vizinhas, formando uma rede distribuída.
+5. Estado da Célula: Toda célula mantém informações sobre sua condição atual. Exemplos: livre, executando tarefa, aguardando dados, sobrecarregada, falha detectada. Esses estados auxiliam a organização da arquitetura.
 Organização da Rede
 As células são organizadas em uma malha computacional.
+
 
 graph LR
 A((C1)) --- B((C2))
@@ -195,7 +183,9 @@ F --- I((C9))
 G --- H
 H --- I
 
-vizinhas diretas. Nenhuma célula possui conhecimento completo da arquitetura.
+
+
+Cada célula comunica-se apenas com suas vizinhas diretas. Nenhuma célula possui conhecimento completo da arquitetura.
 Filosofia da Arquitetura
 A ACS adota um princípio diferente das arquiteturas tradicionais. Em vez de centralizar inteligência em um único componente, ela distribui responsabilidades entre milhares de pequenas células cooperativas.
 Isso proporciona:
@@ -203,7 +193,5 @@ Isso proporciona:
  modularidade;
  tolerância a falhas;
  crescimento incremental da arquitetura.
-
-### Status do projeto
-
+Status do projeto
 🟡 Em pesquisa conceitual. A arquitetura está sendo desenvolvida e pode sofrer alterações à medida que novas ideias, testes e estudos forem realizados.
