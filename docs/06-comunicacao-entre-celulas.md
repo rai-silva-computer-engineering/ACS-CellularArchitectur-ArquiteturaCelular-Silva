@@ -27,7 +27,7 @@ No modelo conceitual atual, uma célula pode estabelecer comunicação direta na
                            ●
                            │
                          ABAIXO
-                    FRENTE ↔ TRÁS ```
+                    FRENTE ↔ TRÁS 
 
 A célula central representa a unidade que está realizando a comunicação.
 
