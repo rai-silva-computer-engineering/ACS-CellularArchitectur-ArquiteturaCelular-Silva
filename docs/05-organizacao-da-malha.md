@@ -65,3 +65,11 @@ A organização tridimensional oferece diversas vantagens para a Arquitetura Cel
 Resumo
 A Malha Computacional constitui a infraestrutura da Arquitetura Celular Silva. É por meio dela que as células cooperam, compartilham informações e formam um único sistema computacional distribuído.
 No próximo capítulo serão definidos os mecanismos de comunicação entre das células e a forma como as informações percorrem essa malha tridimensional.
+
+---
+
+### Próxima Etapa
+
+Continue a evolução do estudo e veja como as informações trafegam por essa estrutura:
+* **[Ir para a Seção 06 — Comunicação entre Células](./06-comunicacao-entre-celulas.md)**
+
