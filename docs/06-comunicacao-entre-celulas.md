@@ -137,8 +137,6 @@ Cada célula possui capacidade de comunicação local e pode receber, processar 
 
 Próxima Etapa
 Continue a evolução do estudo e veja como a arquitetura lida com softwares:
-* [Ir para a Seção 07 — Execução de Programas](./07-execucao-de-programas.md)
+[Ir para a Seção 07 — Execução de Programas](./07-execucao-de-programas.md)
 
-
-                         
 
