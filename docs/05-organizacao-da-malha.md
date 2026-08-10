@@ -75,4 +75,4 @@ A Malha Computacional constitui a infraestrutura da Arquitetura Celular Silva. �
 
 No próximo documento será definida a comunicação entre as células e a forma como as informações percorrem essa malha tridimensional.
 
-**Próxima seção:** [06 — Comunicação entre Células](./06-comunicacao-entre-celulas.md)
+[06 — Comunicação entre Células](./06-comunicacao-entre-celulas.md)
