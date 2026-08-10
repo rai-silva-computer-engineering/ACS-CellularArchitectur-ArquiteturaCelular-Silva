@@ -74,4 +74,4 @@ No próximo capítulo serão definidos os mecanismos de comunicação entre das 
 A Malha Computacional constitui a infraestrutura da Arquitetura Celular Silva. É por meio dela que as células cooperam, compartilham informações e formam um único sistema computacional distribuído.
 
 No próximo documento será definida a comunicação entre as células e a forma como as informações percorrem essa malha tridimensional.
-[06 — Comunicação entre Células](./06-comunicacao-entre-celulas/README.md)
+[06 — Comunicação entre Células](../main/docs/06-comunicacao-entre-celulas.md)
