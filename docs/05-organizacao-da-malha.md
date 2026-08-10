@@ -72,4 +72,3 @@ No próximo capítulo serão definidos os mecanismos de comunicação entre das 
 
 Continue a evolução do estudo e veja como as informações trafegam por essa estrutura:
 [06 — Comunicação entre Células](./06-comunicacao-entre-celulas.md)
-
