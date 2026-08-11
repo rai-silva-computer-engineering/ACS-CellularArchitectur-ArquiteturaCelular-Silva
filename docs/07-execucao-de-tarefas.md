@@ -165,7 +165,7 @@ A capacidade de recuperação dependerá das informações mantidas pela arquite
 Quando todas as tarefas necessárias forem concluídas, seus resultados poderão ser combinados para produzir o resultado final do programa.
 
 Assim, a execução deixa de ser uma sequência obrigatoriamente centralizada e passa a ser um processo cooperativo entre diferentes células.
-### Representação visual
+
 
 **Acompanhe, no rascunho abaixo, uma representação visual de como uma tarefa pode ser distribuída e executada entre diferentes células da Arquitetura Celular Silva.**
 
@@ -193,6 +193,5 @@ Programas podem ser divididos em tarefas, distribuídos entre células e executa
 
 A definição detalhada do conjunto de instruções, da forma como programas serão representados e dos mecanismos de distribuição será desenvolvida nas próximas etapas da arquitetura.
 
-<img width="1179" height="1334" alt="modelo" src="https://github.com/user-attachments/assets/b04daf52-a811-4c22-8d5c-9230bf09acaf" />
 Próxima seção: [08 — Memória Distribuída](./08-memoria-distribuida.md)
 
