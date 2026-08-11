@@ -169,9 +169,7 @@ Assim, a execução deixa de ser uma sequência obrigatoriamente centralizada e 
 
 **Acompanhe, no rascunho abaixo, uma representação visual de como uma tarefa pode ser distribuída e executada entre diferentes células da Arquitetura Celular Silva.**
 
-
-
-<img width="1179" height="1334" alt="modelo" src="https://github.com/user-attachments/assets/ff869322-6d87-4570-9e31-db955f1cb7ed" />
+<img width="1024" height="1536" alt="modelo visual" src="https://github.com/user-attachments/assets/b3ff82e6-22bc-4c4c-b8e7-720da294e645" />
 
 ---
 
