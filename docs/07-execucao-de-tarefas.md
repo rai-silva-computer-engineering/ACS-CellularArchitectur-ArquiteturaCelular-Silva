@@ -165,6 +165,11 @@ A capacidade de recuperação dependerá das informações mantidas pela arquite
 Quando todas as tarefas necessárias forem concluídas, seus resultados poderão ser combinados para produzir o resultado final do programa.
 
 Assim, a execução deixa de ser uma sequência obrigatoriamente centralizada e passa a ser um processo cooperativo entre diferentes células.
+### Representação visual
+
+**Acompanhe, no rascunho abaixo, uma representação visual de como uma tarefa pode ser distribuída e executada entre diferentes células da Arquitetura Celular Silva.**
+
+
 
 <img width="1179" height="1334" alt="modelo" src="https://github.com/user-attachments/assets/ff869322-6d87-4570-9e31-db955f1cb7ed" />
 
